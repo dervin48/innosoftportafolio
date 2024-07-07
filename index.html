@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<title>InnoSoft Solutions</title>
+  </head>
+
+  <body>
+    <!-- SECCION I N I C I O -->
+<header>
+  <section id="inicio">
+    <nav class="navbar">
+      <div class="logo-container">
+        <div class="logo-text">InnoSoft Solutions</div>
+        <a href="#presentacion"><img src="img/logo.png"  class="imglogo"></a>
+      </div>
+      <input type="checkbox" id="toggle-menu">
+      <label for="toggle-menu" class="navbar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="navbar-menu">
+          <li><a href="#presentacion" onclick="seleccionar(this)">INICIO</a></li>
+          <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE NOSOTROS</a></li>
+          <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+          <li><a href="#portfolio" onclick="seleccionar(this)">NUESTROS PROYECTOS</a></li>
+          <li><a href="#contacto" onclick="seleccionar(this)">CONTACTANOS</a></li>
+      </ul>
+    </nav>
+</header>
+        <div class="presentacion" id="presentacion">
+          <img src="img/logo.png" class="logo-full">
+          <p class="logo-text">InnoSoft Solutions</p>
+          <p class="subtitulo-logo">Mejorando con Tecnología</p>
+          <div class="fila">
+            <div class="column">
+              <h3>Misión</h3>
+              <p class="prueba">
+                Nuestra misión es empoderar a las empresas a través de
+                soluciones de software innovadoras y personalizadas que impulsen
+                su crecimiento y eficiencia. Nos comprometemos a ofrecer
+                tecnología de vanguardia, desarrollada con los más altos
+                estándares de calidad, para resolver desafíos complejos y
+                transformar ideas en realidades digitales.
+              </p>
+            </div>
+            <div class="column">
+              <h3>Visión</h3>
+              <p class="prueba">
+                Nuestra es ser reconocidos como líderes globales en el
+                desarrollo de software, conocidos por nuestra capacidad de
+                innovación y nuestra dedicación a la excelencia. Aspiramos a ser
+                la primera opción para empresas de todos los tamaños que buscan
+                transformar sus operaciones y alcanzar nuevas alturas a través
+                de la tecnología.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <!-- SECCION S O B R E  NOSOTROS -->
+    <section id="sobremi">
+      <div class="sobremi">
+        <p class="titulo-seccion">SOBRE NOSOTROS</p>
+        
+        <h2 >InnoSoft Solutions</h2>
+
+        <p class="descripcion-empresa">
+          Somos una empresa dedicada al desarrollo de soluciones de software
+          innovadoras y perzonalizadas para pequeñas y medianas empresas. Nos
+          comprometemos a transformar ideas visionarias en productos digitales
+          de alta calidad que impulsan el crecimiento y el éxito de nuestros
+          clientes. Nos enorgullecemos de nuestra capacidad para entender y
+          adaptarnos a las necesidades únicas de cada proyecto, asegurando una
+          colaboración cercana y transparente en todo momento. En InnoSoft
+          Solutions,
+          no solo desarrollamos software, sino que también construimos
+          relaciones duraderas basadas en la confianza y el respeto mutuo,
+          siempre con el objetivo de superar las expectativas y fomentar la
+          innovación continua.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+
+    <section id="servicios" class="animation">
+      <h3 class="titulo-seccion-nuestros-servicios">NUESTROS SERVICIOS</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"> <i class="fa-solid fa-laptop-code"></i></span>
+          <h4>Desarrollo de Software</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Escritorio</li>
+            <li>Integraciones</li>
+          </ul>
+          <p>
+            Creamos soluciones de software a medida para optimizar tus procesos empresariales, mejorar la eficiencia y fomentar la innovación en tu organización. Desde aplicaciones web hasta software de escritorio, transformamos tus necesidades en soluciones tecnológicas robustas y escalables.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-mobile-alt"></i></span>
+          <h4>Desarrollo de Aplicaciones Móviles</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>IOS</li>
+            <li>Android</li>
+            <li>Cross-Platform</li>
+          </ul>
+          <p>
+            Desarrollamos aplicaciones móviles intuitivas y atractivas que brindan una experiencia de usuario excepcional. Ya sea que necesites una app nativa para iOS o Android, o una solución multiplataforma, te ayudamos a conectar con tus clientes en cualquier dispositivo.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-globe"></i></span>
+          <h4>Desarrollo Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Landing Pages</li>
+            <li>Sitio Corporativo</li>
+            <li>E-Commerce</li>
+          </ul>
+          <p>
+            Diseñamos y desarrollamos sitios web modernos y funcionales que reflejan la identidad de tu marca y atraen a tus clientes. Desde páginas de aterrizaje efectivas hasta tiendas en línea completas, te ofrecemos soluciones web que impulsan tu presencia digital.
+          </p>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-network-wired"></i></span>
+          <h4>Cableado Estructurado</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Redes</li>
+            <li>Instalaciones</li>
+            <li>Mantenimiento</li>
+          </ul>
+          <p>
+            Proveemos servicios de cableado estructurado para garantizar una infraestructura de red fiable y eficiente. Desde la instalación hasta el mantenimiento, nos aseguramos de que tu red esté siempre en las mejores condiciones para soportar tus operaciones diarias.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-chalkboard-teacher"></i></span>
+          <h4>Consultoría Tecnológica</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Asesoramiento</li>
+            <li>Estrategia</li>
+            <li>Optimización</li>
+          </ul>
+          <p>
+            Ofrecemos consultoría tecnológica para ayudarte a definir y alcanzar tus objetivos de TI. Ya sea que necesites asesoramiento estratégico o optimización de tus sistemas existentes, nuestros expertos están aquí para guiarte en cada paso del camino.
+          </p>
+        </div>
+
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-chalkboard-teacher"></i></span>
+          <h4>Diseño y Modelado de Base de Datos</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Asesoramiento</li>
+            <li>Estrategia</li>
+            <li>Optimización</li>
+          </ul>
+          <p>
+           Ofrecemos diseño de esquemas de base de datos, modelado de datos, optimización de estructuras de almacenamiento.
+          </p>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+    <br>
+    <br>
+      <h3 class="titulo-seccion-nuestros-servicios">NUESTROS PROYECTOS</h3>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="img/proyecto1.png" alt="blog-del-cafe" />
+            <div class="project-info">
+              <h2>Blog del Cafe</h2>
+              <p>Diseño Web</p>
+              <p><string>Lenguajes: </string> Html, CSS, JavaScript </p>
+              <a href="proyectos/blogdecafe/index.html" target="_blank" class="project-button">Ver Proyecto</a>
+            </div>
+        </div>
+        <div class="project-card">
+          <img src="img/proyecto2.png" alt="festival-musica" />
+            <div class="project-info">
+              <h2>Festival de Musica</h2>
+              <p>Diseño Web</p>
+              <p><string>Lenguajes: </string> Html, CSS, JavaScript, Gulp </p></a>
+              <a href="proyectos/festivalmusica/index.html"  target="_blank" class="project-button">Ver Proyecto</a>
+            </div>
+        </div>
+        <div class="project-card">
+          <img src="img/proyecto3.png" alt="Freelancer" />
+            <div class="project-info">
+              <h2>Freelance</h2>
+              <p>Diseño Web</p>
+              <p><string>Lenguajes: </string> Html, CSS, JavaScript, Gulp </p></a>
+              <a href="proyectos/freelancer/index.html"  target="_blank" class="project-button">Ver Proyecto</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="img/proyecto4.png" alt="Tienda Online" />
+              <div class="project-info">
+                <h2>Tienda Online</h2>
+                <p>Diseño Web</p>
+                <p><string>Lenguajes: </string> Html, CSS, JavaScript, Gulp </p></a>
+                <a href="proyectos/FrontEndStore/index.html"  target="_blank" class="project-button">Ver Proyecto</a>
+              </div>
+          </div
+      </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contactanos ahora</h3>
+      <div class="contenedor-form">
+        <form id="contactForm">
+          <div class="fila">
+            <input type="text" name="nombre" id="nombre"
+              placeholder="Nombre Completo " class="input-full" required />
+          </div>
+          <div class="fila">
+            <input type="number" name="telefono" id-="telefono"
+              placeholder="Número de Teléfono" class="input-full" required />
+          </div>
+
+          <div class="fila">
+            <input type="email" name="email" id="email"
+              placeholder="Dirección de Email" class="input-full" required />
+          </div>
+
+          <div class="fila">
+            <textarea id="mensaje" name="mensaje" cols="30" rows="10"
+              placeholder="Tu Mensaje..." class="input-full"
+              required></textarea>
+          </div>
+
+          <input type="submit" id="button" value="Eviar Mensaje" class="btn-enviar">
+          <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+          <script type="text/javascript">
+            emailjs.init('DZ1vj1R84qu2RWwX_')
+          </script>
+        </script>
+      </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>Todos los derechos reservados - 2024</p>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+      </div>
+    </footer>
+ <script src="script.js"></script>
+  </body>
+  <script>
+    const btn = document.getElementById('button');
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  btn.value = 'Enviando...';
+
+  const serviceID = 'default_service';
+  const templateID = 'template_sdhqz2y';
+
+  emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Enviar Mensaje';
+      Swal.fire({
+        icon: 'success',
+        title: 'Mensaje enviado con éxito',
+        showConfirmButton: false,
+        timer: 2000
+      });
+      document.getElementById('contactForm').reset();
+    }, (err) => {
+      btn.value = 'Enviar Mensaje';
+      Swal.fire({
+        icon: 'error',
+        title: 'Error al enviar el mensaje',
+        text: JSON.stringify(err)
+      });
+    });
+});
+</script>
+</body>
+</html>
