@@ -17,7 +17,8 @@ header {
 	overflow:hidden; /* Eliminamos errores de float */
 	background:#111135;
 	margin-bottom:0px;
-    position: relative;
+    position: fixed;
+    z-index: 1000;
     
 }
   
