@@ -20,13 +20,9 @@ header {
     position: relative;
     
 }
-#header{
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-  }
   
 .navbar{
+    position: fixed;
     top: 0;
     width: 100%;
     display: flex;
@@ -34,6 +30,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     color: white;
+    z-index: 1000;
 }
 .logo-container{
     display: flex;
