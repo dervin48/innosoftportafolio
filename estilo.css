@@ -17,11 +17,9 @@ header {
 	overflow:hidden; /* Eliminamos errores de float */
 	background:#111135;
 	margin-bottom:0px;
-    position: fixed;
-    z-index: 1000;
+    position: relative;
     
 }
-  
 .navbar{
     position: fixed;
     top: 0;
@@ -31,7 +29,6 @@ header {
     align-items: center;
     padding: 10px 20px;
     color: white;
-    z-index: 1000;
 }
 .logo-container{
     display: flex;
@@ -172,7 +169,7 @@ header nav a:hover {
     background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
     background-size: cover;
     background-position: center center;
-    /* height: 100vh; */
+  margin-top: -5%;
 }
 
 .presentacion .bienvenida {
@@ -228,7 +225,7 @@ header nav a:hover {
 #sobremi .sobremi .titulo-seccion {
     font-size: 25px;
     text-transform: uppercase;
-    color: #111135;
+    color: #d44747;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -511,6 +508,11 @@ header nav a:hover {
     padding: 10px 15px !important;
 }
 
+.logo-full{
+    width: 75px;
+
+}
+
 #contacto .btn-enviar:hover {
     background-color: #646263;
     color: #fff;
@@ -640,6 +642,10 @@ footer a {
 .column {
     flex: 1;
     margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Mantiene los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
 }
 
 h3 {
@@ -650,9 +656,14 @@ h3 {
 .prueba {
     color:white;
     line-height: 1.6;
-    text-align: justify;
+    width: 50%;
     margin-left: 50px;
     margin-right: 50px;
+    text-align: justify;
+    margin: 0; 
+    
+
+
 }
 
 
@@ -694,9 +705,24 @@ h3 {
     font-size: 13px;
 }
 
+.servicios-tag {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+
+}
+
+.servicios-tag li {
+    text-align: center; /* Centers the text inside each list item */
+}
+
 @media (max-width: 768px) {
     .logo-text {
         font-size: 30px; /* Ajustar tamaño del texto en pantallas más pequeñas */
+        
+    }
+    .servicios-tag{
+        text-align: center;
     }
 
     .subtitulo-logo {
@@ -721,12 +747,18 @@ h3 {
     }
     .logo-full{margin-top: 300px;
     }
+    .servicios-tag{
+        text-align: center;
+    }
 }
 
 
 @media screen and (min-width: 390px) {
     .logo-text {
         font-size: 24px; /* Ajustar tamaño del texto en pantallas más pequeñas */
+    }
+    #h4{
+        text-align: center;
     }
 
     .subtitulo-logo {
